@@ -1,0 +1,3 @@
+For a 100-page scanned PDF, processing in batches is a good idea, especially if OCR is slow or may be interrupted. The current script processes pages one at a time, so it doesn’t load all page images into memory at once—but it prints results directly and doesn’t save progress. If it stops midway, you may need to rerun pages already processed.
+
+A practical approach is to OCR a manageable range of pages at a time and save each batch’s results to a text file. That gives you checkpoints and makes it easier to resume. Parallel processing usually isn’t necessary to start; it can increase CPU and memory use without guaranteeing a proportional speed-up.

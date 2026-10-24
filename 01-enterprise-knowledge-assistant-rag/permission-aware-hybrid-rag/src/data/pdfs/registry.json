@@ -1,0 +1,47 @@
+[
+  {
+    "doc_id": "HR-001",
+    "filename": "leave-policy.pdf",
+    "title": "Leave Policy",
+    "department": "HR",
+    "version": 3,
+    "effective_date": "2026-01-01",
+    "allowed_groups": "all-employees"
+  },
+  {
+    "doc_id": "FIN-002",
+    "filename": "expense-policy.pdf",
+    "title": "Expense Reimbursement Policy",
+    "department": "Finance",
+    "version": 2,
+    "effective_date": "2026-03-01",
+    "allowed_groups": "all-employees"
+  },
+  {
+    "doc_id": "HR-003",
+    "filename": "remote-work-policy.pdf",
+    "title": "Remote Work Policy",
+    "department": "HR",
+    "version": 4,
+    "effective_date": "2026-02-15",
+    "allowed_groups": "all-employees"
+  },
+  {
+    "doc_id": "IT-004",
+    "filename": "security-policy.pdf",
+    "title": "Information Security Policy",
+    "department": "IT",
+    "version": 5,
+    "effective_date": "2026-04-01",
+    "allowed_groups": "all-employees"
+  },
+  {
+    "doc_id": "HR-005",
+    "filename": "salary-bands-confidential.pdf",
+    "title": "Salary Bands (Confidential)",
+    "department": "HR",
+    "version": 1,
+    "effective_date": "2026-01-01",
+    "allowed_groups": "hr-team"
+  }
+]
